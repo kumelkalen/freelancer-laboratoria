@@ -1,3 +1,38 @@
 /*
  * Estilos de tu proyecto
  */
+
+*{
+	margin:0 auto;
+	padding: 0;
+}
+
+header{
+  position: fixed;
+  background: brown;
+  width: 100%;
+  top: 0;
+  padding:2%;
+}
+
+#titulo-principal{
+	color:white;
+	float: left;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+header nav ul li{
+	list-style: none;
+}
+
+header nav ul{
+	margin-right: 100px;
+
+}
+
+.container .row{
+	display:inline-block;
+}
+

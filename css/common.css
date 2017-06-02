@@ -1,4 +1,19 @@
-/* Creamos nuestra grilla */
+/*
+ * Estilos reutilizables
+ */
+
+ .link{
+ 	text-transform: uppercase;
+ 	display: inline-block;
+	text-transform: uppercase;
+ 	text-decoration: none;
+	color: white;
+	padding: 10px;
+	float: right;
+
+ }
+
+ /* Creamos nuestra grilla */
 
 .container{
     max-width: 1200px;
@@ -36,7 +51,7 @@
     width: 25%;
 }
 
-.col-4{				
+.col-4{				/* Grilla que usaremos ya que serán 3 elementos */
     /*(4/12)*100*/ 
     width: 33.333333%;
 }
@@ -85,16 +100,3 @@
     max-width: 100%;
     width: 100%;
 }
-
-
-
-
-/*
- * Estilos reutilizables
- */
-
- .link{
- 	display: inline-block;
- }
-
-
